@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
     res.send('Olá minha imagem')
 })
 
-app.post('/post', function (req, res) {
+app.post('/postc', function (req, res) {
     res.send('POST request to the homepage');
   });
   
